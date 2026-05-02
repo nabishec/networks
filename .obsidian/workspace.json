@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "5660684f078b1efa",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f5b325c5b2764e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85cf2f9963aab01d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-concepts/Витая пара.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Витая пара"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3d1034fd327d50af",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4c95d79fa07d6d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f33d33e590ce2d5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "4f589dd36df8abcd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "373cd1e69c19fc35",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "20940bfef22c36ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "70e29c23b00ebd06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a016ac286213afd3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "10-concepts/Витая пара.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Витая пара"
+            }
+          },
+          {
+            "id": "dd40dae1e915987a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "10-concepts/Витая пара.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Витая пара"
+            }
+          },
+          {
+            "id": "5d085ff5895ccf1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "97cc1841f17965c5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "6faf6e8ef5f5fa14",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10-concepts/Витая пара.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Витая пара"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "85cf2f9963aab01d",
+  "lastOpenFiles": [
+    "README.md",
+    "LICENSE",
+    "network",
+    "10-concepts/Виды атак.md",
+    "10-concepts/RPC.md",
+    "99-meta/phase-h-report.md",
+    "99-meta/build-log.md",
+    "40-glossary/DNS over HTTPS - TLS.md",
+    "10-concepts/DNS — кэширование и TTL.md",
+    "10-concepts/Сокеты Беркли.md",
+    "40-glossary/gRPC.md",
+    "30-algorithms/802.11 MAC — DCF.md",
+    "10-concepts/Компьютерная сеть.md",
+    "50-rf-circumvention",
+    "10-concepts/Sandboxing — выполнение недоверенного кода.md",
+    "30-algorithms/Аутентификация — challenge-response.md",
+    "10-concepts/SQL-инъекция.md",
+    "10-concepts/CSRF.md",
+    "10-concepts/XSS.md",
+    "30-algorithms/Эллиптическая криптография ECC.md",
+    "10-concepts/Канальный уровень.md",
+    "10-concepts/Защита персональной информации.md",
+    "00-MOC/by-layer.md",
+    "20-protocols/H.323.md",
+    "10-concepts/Именование доменов — ICANN.md",
+    "10-concepts/DNS — приватность и ODNS.md",
+    "10-concepts/Проектирование хостов для быстрых сетей.md",
+    "20-protocols/SCTP и MPTCP.md",
+    "20-protocols/IMAP и POP3.md",
+    "40-glossary",
+    "30-algorithms",
+    "20-protocols",
+    "10-concepts",
+    "00-MOC",
+    "99-meta/chapters.json",
+    "libraries/Tanenbaum_E__Fimster_N__Uezeroll_D_-_Kompyuternye_seti_6-e_izd__Klassika_computer_science_-_2023.docx"
+  ]
+}
