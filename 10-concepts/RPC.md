@@ -1,6 +1,6 @@
 ---
 title: RPC
-aliases: ["Remote Procedure Call", "Удалённый вызов процедур"]
+aliases: ["Remote Procedure Call", "Удалённый вызов процедур", "RPC — удалённый вызов процедур"]
 type: concept
 layer: application
 chapter: 6

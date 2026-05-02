@@ -67,6 +67,15 @@ UDP даёт «голый IP с портами» — приложение реа
 - **Размер**: фрагментация UDP-пакета на L3 при больших пакетах хрупка. Современный совет: <1500-overhead, чтобы помещаться в один Ethernet-фрейм.
 - **NAT и UDP**: state в NAT истекает быстрее (нет close-сигнала). Keepalive нужен для долгих UDP-сессий.
 
+## См. также (прикладное)
+RF-circumvention: UDP — основа censorship-resistant-туннелей нового поколения.
+- [[QUIC и mKCP]] — обзор UDP-классов туннелей в РФ.
+- [[Hysteria-2]] — QUIC + Salamander-обфускация.
+- [[mKCP]] — Xray reliable-UDP transport.
+- [[AmneziaWG]] — обфусцированный WireGuard поверх UDP.
+- [[WebRTC-туннель]] — UDP/DTLS-SRTP last-resort.
+- [[applied-rf-status]] — обзор.
+
 ## Дальше читать
 - [[TCP]] — для сравнения.
 - [[QUIC]] — реализация надёжности поверх UDP.

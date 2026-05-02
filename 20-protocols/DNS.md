@@ -6,7 +6,7 @@ layer: application
 chapter: 7
 difficulty: basic
 prerequisites: ["[[UDP]]", "[[TCP]]"]
-related: ["[[DNS — типы записей]]", "[[DNS — рекурсивный vs итеративный запрос]]", "[[DNS — кэширование и TTL]]", "[[DNS over HTTPS / TLS]]"]
+related: ["[[DNS — типы записей]]", "[[DNS — рекурсивный vs итеративный запрос]]", "[[DNS — кэширование и TTL]]", "[[DNS over HTTPS - TLS|DNS over HTTPS / TLS]]"]
 tags: [networking, ch07]
 ---
 # DNS — Domain Name System (RFC 1034, 1035)
@@ -54,7 +54,7 @@ www.example.com.
 ## Связи
 - **Базируется на:** [[UDP]] (default), [[TCP]] (большие ответы).
 - **Используется в:** буквально всё в интернете требует DNS; [[Anycast]] для root/popular DNS; [[CDN — устройство]] (DNS-based routing).
-- **Соседи по уровню:** [[DNS — типы записей]], [[DNS — рекурсивный vs итеративный запрос]], [[DNS — кэширование и TTL]], [[DNS over HTTPS / TLS]] — детализация.
+- **Соседи по уровню:** [[DNS — типы записей]], [[DNS — рекурсивный vs итеративный запрос]], [[DNS — кэширование и TTL]], [[DNS over HTTPS - TLS|DNS over HTTPS / TLS]] — детализация.
 - **Противопоставляется:** **/etc/hosts** статическая запись — не масштабируется.
 
 ## Подводные камни
@@ -62,7 +62,15 @@ www.example.com.
 - **DNS-spoofing / cache poisoning** — атаки на кэши. Защита — DNSSEC.
 - Кэширование с большим TTL означает: после смены IP часть мира продолжает «звонить» по старому. Уменьшать TTL перед миграцией.
 
+## См. также (прикладное)
+RF-circumvention: DNS — критическая точка входа для blocked-сайтов.
+- [[Encrypted DNS — DoH-DoT]] — DoH/DoT в РФ (Yandex DoH разрешён, Cloudflare часто блокирован).
+- [[DNS-туннелирование]] — last-resort tunnel поверх DNS-запросов (~1 KB/s).
+- [[ECH и ESNI]] — связано с DNS HTTPS RR (RFC 9460); ESNI **сломан** в РФ.
+- [[DPI-фильтрация в РФ]] — DNS-spoofing на провайдер-уровне.
+- [[applied-rf-status]] — обзор.
+
 ## Дальше читать
 - [[DNS — типы записей]], [[DNS — рекурсивный vs итеративный запрос]], [[DNS — кэширование и TTL]] — детальнее.
-- [[DNS over HTTPS / TLS]] — современный privacy.
+- [[DNS over HTTPS - TLS|DNS over HTTPS / TLS]] — современный privacy.
 - Tanenbaum, гл. 7, §7.1 (стр. PDF 684–704).

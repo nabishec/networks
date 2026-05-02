@@ -81,6 +81,12 @@ flowchart TB
 - **CDN concentration risk:** глобальный сбой Cloudflare/Akamai заметен сразу в большой части интернета.
 - **TLS vs CDN:** CDN держит **ваши** приватные ключи. Нужно доверие.
 
+## См. также (прикладное)
+RF-circumvention: CDN — фронт для VPN.
+- [[CDN-фронтинг]] — backend за Cloudflare/CloudFront; classic cross-domain fronting сломан с 2018, но Cloudflare-AS остаётся в whitelist.
+- [[Yandex API Gateway фронтинг]] — РФ-облачный аналог в trusted-AS.
+- [[applied-rf-status]] — обзор техник.
+
 ## Дальше читать
 - [[CDN — сеть доставки контента]] — концепт.
 - [[Anycast]] — routing.

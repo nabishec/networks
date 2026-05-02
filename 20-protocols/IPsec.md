@@ -77,6 +77,12 @@ After IPsec tunnel:
 - **WireGuard простота** становится новым стандартом для VPN — IPsec остаётся в legacy и enterprise.
 - **MTU issues:** IPsec добавляет header → effective MTU < 1500. PMTUD ломается → fragmentation.
 
+## См. также (прикладное)
+RF-circumvention: IPsec и vanilla WireGuard ловятся DPI по pattern-handshake — для РФ нужны обфускированные варианты.
+- [[AmneziaVPN]] — self-hosted с **AmneziaWG** (custom WireGuard-flavor с randomized handshake).
+- [[VLESS-Reality]] — современная альтернатива на L7.
+- [[applied-rf-status]] — обзор: vanilla WireGuard и OpenVPN — broken; censorship-resistant techniques — отдельный пласт.
+
 ## Дальше читать
 - [[VPN]] — общий концепт.
 - [[Туннелирование]] — родственная тема.

@@ -67,6 +67,15 @@ Employee laptop -- Internet -- VPN GW (corp.com:443) -- Corporate LAN
 - **WebRTC leak:** в браузере можно узнать local IP через STUN — обходит VPN. Disable WebRTC или firewall.
 - **Kill switch:** если VPN падает — не fallback'ить на open internet (для critical privacy).
 
+## См. также (прикладное)
+RF-circumvention: censorship-circumvention VPN в РФ — самостоятельный пласт техник, отличающихся от классических VPN маскировкой и устойчивостью к DPI.
+- [[applied-rf-status]] — таблица: что работает на 2026-05-02.
+- [[VLESS-Reality]] — основная censorship-resistant техника.
+- [[AmneziaVPN]] — упрощённое self-hosted-решение с обфускацией.
+- [[Xray-core]] / [[Sing-box]] — engine'ы.
+- [[ТСПУ]] / [[DPI-фильтрация в РФ]] — что приходится обходить.
+- [[Белые списки]] / [[Session freezing]] — главные «убийцы» обычных VPN.
+
 ## Дальше читать
 - [[IPsec]] — main технология.
 - [[Туннелирование]] — теория.

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2f5b325c5b2764e8",
+        "id": "fac66492a77537a8",
         "type": "tabs",
         "children": [
           {
-            "id": "85cf2f9963aab01d",
+            "id": "483dc2f775bab561",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-concepts/Витая пара.md",
-                "mode": "source",
+                "file": "10-concepts/CDN — устройство.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Витая пара"
+              "title": "CDN — устройство"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-concepts/Витая пара.md",
+                "file": "10-concepts/CDN — устройство.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Витая пара"
+              "title": "Обратные ссылки для CDN — устройство"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-concepts/Витая пара.md",
+                "file": "10-concepts/CDN — устройство.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Витая пара"
+              "title": "Исходящие ссылки из CDN — устройство"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-concepts/Витая пара.md",
+                "file": "10-concepts/CDN — устройство.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Витая пара"
+              "title": "Структура CDN — устройство"
             }
           }
         ]
@@ -183,43 +183,43 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "85cf2f9963aab01d",
+  "active": "483dc2f775bab561",
   "lastOpenFiles": [
-    "README.md",
+    "50-rf-circumvention/TTL-анализ.md",
+    "50-rf-circumvention/Behavioral detection.md",
+    "50-rf-circumvention/cheburcheck.ru.md",
+    "50-rf-circumvention/dpi-detector.md",
+    "50-rf-circumvention/telemt.md",
+    "50-rf-circumvention/hyperion-cs DPI-checker.md",
+    "50-rf-circumvention/PingZen.md",
+    "50-rf-circumvention/Remnawave.md",
+    "50-rf-circumvention/Zapret GUI.md",
+    "50-rf-circumvention/Marzban.md",
+    "50-rf-circumvention/mtg.md",
+    "50-rf-circumvention/3X-UI.md",
+    "50-rf-circumvention/PB11 — Self-Steal-only без РФ-моста.md",
+    "50-rf-circumvention/mKCP.md",
+    "50-rf-circumvention/Hysteria-2.md",
+    "50-rf-circumvention/PB10 — DNSTT-туннель.md",
+    "50-rf-circumvention/DoT в РФ.md",
+    "50-rf-circumvention/PB9 — Hysteria-2 setup.md",
+    "50-rf-circumvention/DoH в РФ.md",
+    "50-rf-circumvention/coturn.md",
+    "40-glossary/WebSocket.md",
+    "40-glossary/CGNAT.md",
+    "50-rf-circumvention/Cloudflare WARP.md",
+    "50-rf-circumvention/Cloak.md",
+    "50-rf-circumvention/Loyalsoldier geo-files.md",
+    "50-rf-circumvention/RealiTLScanner.md",
+    "libraries/Tanenbaum_E__Fimster_N__Uezeroll_D_-_Kompyuternye_seti_6-e_izd__Klassika_computer_science_-_2023.pdf",
+    "CSMA",
     "LICENSE",
     "network",
-    "10-concepts/Виды атак.md",
-    "10-concepts/RPC.md",
-    "99-meta/phase-h-report.md",
-    "99-meta/build-log.md",
-    "40-glossary/DNS over HTTPS - TLS.md",
-    "10-concepts/DNS — кэширование и TTL.md",
-    "10-concepts/Сокеты Беркли.md",
-    "40-glossary/gRPC.md",
-    "30-algorithms/802.11 MAC — DCF.md",
-    "10-concepts/Компьютерная сеть.md",
     "50-rf-circumvention",
-    "10-concepts/Sandboxing — выполнение недоверенного кода.md",
-    "30-algorithms/Аутентификация — challenge-response.md",
-    "10-concepts/SQL-инъекция.md",
-    "10-concepts/CSRF.md",
-    "10-concepts/XSS.md",
-    "30-algorithms/Эллиптическая криптография ECC.md",
-    "10-concepts/Канальный уровень.md",
-    "10-concepts/Защита персональной информации.md",
-    "00-MOC/by-layer.md",
-    "20-protocols/H.323.md",
-    "10-concepts/Именование доменов — ICANN.md",
-    "10-concepts/DNS — приватность и ODNS.md",
-    "10-concepts/Проектирование хостов для быстрых сетей.md",
-    "20-protocols/SCTP и MPTCP.md",
-    "20-protocols/IMAP и POP3.md",
     "40-glossary",
     "30-algorithms",
     "20-protocols",
     "10-concepts",
-    "00-MOC",
-    "99-meta/chapters.json",
-    "libraries/Tanenbaum_E__Fimster_N__Uezeroll_D_-_Kompyuternye_seti_6-e_izd__Klassika_computer_science_-_2023.docx"
+    "00-MOC"
   ]
 }

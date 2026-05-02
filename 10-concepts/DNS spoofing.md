@@ -1,6 +1,6 @@
 ---
 title: DNS spoofing
-aliases: ["DNS cache poisoning", "DNSSEC", "Отравление DNS-кэша"]
+aliases: ["DNS cache poisoning", "DNSSEC", "Отравление DNS-кэша", "DNS spoofing и cache poisoning"]
 type: concept
 layer: security
 chapter: 8
@@ -67,6 +67,13 @@ tags: [networking, ch08]
 - **DNSSEC сложен** — много ключей, ротации, нюансы. Mis-configuration → выпадение домена из интернета.
 - **DoH/DoT** скрывают DNS, но **provider DoH** (Cloudflare, Google) видит всё → перенесение доверия.
 - **DNSSEC ≠ encryption** — ответ всё ещё читается посередине, просто не подделать.
+
+## См. также (прикладное)
+RF-circumvention: ТСПУ применяет «лояльный» DNS-spoofing (на уровне оператора) для блокировки доменов.
+- [[DPI-фильтрация в РФ]] — методы ТСПУ, в т.ч. DNS-spoofing.
+- [[Encrypted DNS — DoH-DoT]] — защита: Yandex DoH разрешён, Cloudflare часто блокирован.
+- [[ECH и ESNI]] — связано: без encrypted SNI DPI всё равно видит destination.
+- [[applied-rf-status]] — обзор техник обхода.
 
 ## Дальше читать
 - [[DNS]] — что атакуется.

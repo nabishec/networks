@@ -79,6 +79,12 @@ sequenceDiagram
 - **Middlebox несовместимость:** старые firewall'ы видят UDP трафик и блокируют. Решено за счёт fallback в Chrome.
 - **Encrypted headers** ломают **passive** observability в сетях (нет RTT-измерения сторонним наблюдателем) — спорно для операторов.
 
+## См. также (прикладное)
+RF-circumvention: QUIC — база для современных UDP-VPN.
+- [[Hysteria-2]] — QUIC-VPN с Brutal-congestion и Salamander-обфускацией; маскируется под HTTP/3.
+- [[QUIC и mKCP]] — сравнение UDP-туннелей в РФ-контексте.
+- [[applied-rf-status]] — обзор.
+
 ## Дальше читать
 - [[HTTP-2 и HTTP-3]] — главный потребитель.
 - [[TCP]] — предшественник.

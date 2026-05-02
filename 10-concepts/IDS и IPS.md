@@ -77,6 +77,14 @@ content:"' or 1=1"; nocase; sid:1000001;)
 - **Bypass через encoded payload** — атакующие используют base64, fragmentation для обхода simple signatures. Modern IDS reassemble и decode.
 - **IPS-block of legitimate traffic** — болезненно, особенно для critical apps. Часто IPS deploy'ят в IDS-mode сначала, потом постепенно switch.
 
+## См. также (прикладное)
+RF-circumvention: ТСПУ — государственный IDS/IPS-stack с signature-based и anomaly-based методами.
+- [[ТСПУ]] — DPI-stack ФЗ-90.
+- [[DPI-фильтрация в РФ]] — методы детекции (SNI, JA3/JA4, session-freezing).
+- [[Active probing]] — IPS-style probing: DPI само подключается к подозрительному IP.
+- [[uTLS]] — обход JA3/JA4-fingerprint-классификации.
+- [[applied-rf-status]] — обзор техник обхода.
+
 ## Дальше читать
 - [[Брандмауэр]] — основа.
 - [[Виды атак]] — что детектируем.

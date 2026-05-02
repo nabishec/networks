@@ -1,6 +1,6 @@
 ---
 title: SONET/SDH
-aliases: ["SONET", "SDH", "STS", "OC", "STM"]
+aliases: ["SONET", "SDH", "STS", "OC", "STM", "SONET/SDH"]
 type: protocol
 layer: physical
 chapter: 2

@@ -1,6 +1,6 @@
 ---
 title: Коммутация пакетов vs коммутация каналов
-aliases: ["Packet vs circuit switching"]
+aliases: ["Packet vs circuit switching", "Коммутация каналов vs пакетов"]
 type: concept
 layer: cross-layer
 chapter: 1

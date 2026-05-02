@@ -6,7 +6,7 @@ layer: application
 chapter: 7
 difficulty: basic
 prerequisites: ["[[HTTP]]", "[[TLS — рукопожатие]]"]
-related: ["[[X.509 сертификаты]]", "[[HTTP/2 и HTTP/3]]"]
+related: ["[[X.509 сертификаты]]", "[[HTTP-2 и HTTP-3|HTTP/2 и HTTP/3]]"]
 tags: [networking, ch07]
 ---
 # HTTPS — HTTP over TLS
@@ -67,7 +67,7 @@ $ openssl s_client -connect wikipedia.org:443 -servername wikipedia.org
 ## Связи
 - **Базируется на:** [[HTTP]] (приложение), [[TLS — рукопожатие]] (security), [[X.509 сертификаты]] (аутентификация).
 - **Используется в:** **весь** современный публичный веб; API; OAuth-flows.
-- **Соседи по уровню:** [[HTTP/2 и HTTP/3]] (поверх TLS); QUIC (TLS встроенный).
+- **Соседи по уровню:** [[HTTP-2 и HTTP-3|HTTP/2 и HTTP/3]] (поверх TLS); QUIC (TLS встроенный).
 - **Противопоставляется:** plain HTTP — устарел для public web.
 
 ## Подводные камни
@@ -76,6 +76,14 @@ $ openssl s_client -connect wikipedia.org:443 -servername wikipedia.org
 - **HSTS** (HTTP Strict Transport Security): сервер шлёт header → браузер запоминает «всегда HTTPS для этого домена», блокирует HTTP-fallback.
 - **Certificate Transparency** (CT): все выпущенные сертификаты публикуются в публичных логах — детектирование misissue.
 - **Let's Encrypt** (2015) сделал сертификаты бесплатными и автоматизированными → массовая HTTPS-адаптация.
+
+## См. также (прикладное)
+RF-circumvention: HTTPS+SNI — главный transport, на котором маскируются VPN.
+- [[CDN-фронтинг]] — backend за CloudFront/Cloudflare; classic domain-fronting сломан с 2018.
+- [[Yandex API Gateway фронтинг]] — РФ-облачный аналог в whitelist-AS.
+- [[Self-Steal — свой домен]] — реальный сайт + LE-сертификат + path-based VPN-proxy.
+- [[VLESS-Reality]] — основная техника обхода через подмену target-сайта.
+- [[applied-rf-status]] — что работает на 2026-05-02.
 
 ## Дальше читать
 - [[TLS — рукопожатие]] — детали.

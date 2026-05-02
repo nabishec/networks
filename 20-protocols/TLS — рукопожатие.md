@@ -87,6 +87,15 @@ sequenceDiagram
 - **TLS interception** в corporate networks (MITM proxy с corp CA) — privacy/security trade-off.
 - **TLS metadata not hidden:** SNI (host name) виден в plain text. **Encrypted ClientHello (ECH)** — recent ext fixes this.
 
+## См. также (прикладное)
+RF-circumvention: TLS-handshake — главный объект DPI-фильтрации в РФ.
+- [[VLESS-Reality]] — маскирует свой ClientHello под trusted target-сайт + мимикрия [[uTLS]].
+- [[XTLS-Vision]] — flow, убирающий «TLS-in-TLS»-аномалию (важно для obfuscated VPN-туннелей).
+- [[ECH и ESNI]] — попытка скрыть SNI; **сломано** в РФ ТСПУ детектирует расширение.
+- [[MTProxy и FakeTLS]] — мимикрия Telegram-handshake под TLS 1.3 ClientHello.
+- [[SNI-фильтрация]], [[Active probing]], [[Session freezing]] — почему «обычный TLS-VPN» падает на whitelist-сетях РФ.
+- [[applied-rf-status]] — обзор всех техник.
+
 ## Дальше читать
 - [[HTTPS]] — главный потребитель.
 - [[QUIC]] — TLS встроенный.

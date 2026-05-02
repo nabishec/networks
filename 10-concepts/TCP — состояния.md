@@ -80,6 +80,12 @@ LISTEN   0.0.0.0:22         0.0.0.0:*
 - **SYN_RCVD без ACK** — symptom SYN flood DDoS. SYN cookies — без state.
 - **Half-open** соединения — peer перезагрузился, не послал FIN. Обнаруживается через keepalive или приложением.
 
+## См. также (прикладное)
+RF-circumvention: ТСПУ манипулирует TCP-state machine — silent drop без RST/FIN.
+- [[Session freezing]] — DPI «замораживает» ESTABLISHED-сессию после ~16 KB без send'а RST/FIN; клиент видит timeout, не CLOSE_WAIT.
+- [[xHTTP]] — обёртка с packet-up: фрагментирует upstream так, чтобы trigger session-freezing не срабатывал.
+- [[PB4 — диагностика whitelist]] — как отличить session-freezing от обычного TCP-timeout.
+
 ## Дальше читать
 - [[Three-way handshake]] — открытие.
 - [[Разрыв соединения]] — закрытие.

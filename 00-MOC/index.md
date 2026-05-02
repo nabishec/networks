@@ -35,6 +35,14 @@ tags: [networking, moc, index]
 - [[by-layer|Карта по уровням]] — все концепты по уровням стека.
 - [[learning-paths|Маршруты обучения]] — по целям.
 
+## Прикладной слой — обход блокировок в РФ
+
+Отдельный пласт: applied-layer заметки про техники обхода ТСПУ/whitelist'ов российских провайдеров (на 2026-05-02). База — 9 статей Habr (`50-rf-circumvention/_sources.md`).
+
+- [[applied-rf-status]] — таблица working / partial / broken техник.
+- [[applied-rf-playbooks]] — 8 пошаговых сценариев (PB1–PB8).
+- [[applied-rf-glossary]] — короткие определения (ТСПУ, AS-whitelist, session-freezing, fingerprint, …).
+
 ## Якорные концепты — отсюда хорошо начинать
 
 - [[Компьютерная сеть]] — что это вообще.

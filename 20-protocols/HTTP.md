@@ -6,7 +6,7 @@ layer: application
 chapter: 7
 difficulty: basic
 prerequisites: ["[[Web — архитектура]]", "[[TCP]]"]
-related: ["[[HTTP/2 и HTTP/3]]", "[[HTTPS]]", "[[Cookies и web tracking]]"]
+related: ["[[HTTP-2 и HTTP-3|HTTP/2 и HTTP/3]]", "[[HTTPS]]", "[[Cookies и web tracking]]"]
 tags: [networking, ch07]
 ---
 # HTTP — HyperText Transfer Protocol (RFC 9110, 9112)
@@ -79,8 +79,8 @@ $ curl -v https://wikipedia.org/wiki/Main_Page
 ## Связи
 - **Базируется на:** [[Web — архитектура]], [[TCP]] (HTTP/1.1, /2), [[QUIC]] (HTTP/3).
 - **Используется в:** все веб-приложения, REST API, gRPC (поверх HTTP/2), webhooks, OAuth.
-- **Соседи по уровню:** [[HTTPS]] (TLS), [[HTTP/2 и HTTP/3]].
-- **Противопоставляется:** WebSocket — bidirectional поверх HTTP-upgrade; gRPC — структурный RPC.
+- **Соседи по уровню:** [[HTTPS]] (TLS), [[HTTP-2 и HTTP-3|HTTP/2 и HTTP/3]].
+- **Противопоставляется:** [[WebSocket]] — bidirectional поверх HTTP-upgrade; [[gRPC]] — структурный RPC.
 
 ## Подводные камни
 - **Stateless по умолчанию** → cookies/токены для состояния.
@@ -90,6 +90,6 @@ $ curl -v https://wikipedia.org/wiki/Main_Page
 
 ## Дальше читать
 - [[HTTPS]] — поверх TLS.
-- [[HTTP/2 и HTTP/3]] — современные эволюции.
+- [[HTTP-2 и HTTP-3|HTTP/2 и HTTP/3]] — современные эволюции.
 - [[Cookies и web tracking]] — состояние.
 - Tanenbaum, гл. 7, §7.3.4 (стр. PDF 740–753).

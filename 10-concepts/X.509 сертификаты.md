@@ -80,6 +80,13 @@ $ openssl s_client -connect wikipedia.org:443 -showcerts
 - **Wildcard certs** (`*.example.com`) удобны, но риск: один stolen private — все subdomains compromised.
 - **Revocation** проблематична: CRL медленный, OCSP — privacy concerns. **Short-lived certs** (Let's Encrypt 90 days) — современный подход.
 
+## См. также (прикладное)
+RF-circumvention: X.509 — основа Self-Steal и LE-cert обхода.
+- [[Self-Steal — свой домен]] — реальный сертификат от Let's Encrypt на собственном домене + nginx + path-based VPN-proxy.
+- [[VLESS-Reality]] — использует **чужой** валидный сертификат target-сайта (microsoft.com и т.п.) без подмены.
+- [[PB5 — РФ-каскад с xHTTP+packet-up]], [[PB6 — Nginx+LE с разделением IP]], [[PB11 — Self-Steal-only без РФ-моста]] — playbooks с LE-сертификатами.
+- [[applied-rf-status]] — обзор.
+
 ## Дальше читать
 - [[PKI и центры сертификации]] — инфраструктура.
 - [[TLS — рукопожатие]] — главный потребитель.

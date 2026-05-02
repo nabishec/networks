@@ -61,6 +61,13 @@ $$ \text{HMAC}(K, M) = H((K' \oplus opad) \mathbin\Vert H((K' \oplus ipad) \math
 - **Key length:** ключ должен быть длиной ≥ output hash для full security.
 - **HMAC ≠ digital signature**: обе стороны должны знать K. Атакующий с K может **создать** любой valid HMAC; non-repudiation требует подписи (RSA/ECDSA).
 
+## См. также (прикладное)
+RF-circumvention: HMAC — встроен в обфускацию censorship-resistant-протоколов.
+- [[MTProxy и FakeTLS]] — HMAC-SHA256 в FakeTLS-handshake (hidden-secret в TLS-random).
+- [[telemt]], [[mtg]] — реализации MTProxy с HMAC-проверкой.
+- [[VLESS-Reality]] — HKDF (HMAC-based KDF) для деривирования session keys из x25519-ECDH.
+- [[applied-rf-status]] — обзор.
+
 ## Дальше читать
 - [[Хеш-функции]] — base.
 - [[Цифровая подпись]] — асимметричная альтернатива.

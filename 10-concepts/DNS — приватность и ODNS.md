@@ -64,6 +64,12 @@ Authoritative видит запрос + IP proxy (не знает клиента
 - **ISP-functions** теряются: malware-filter, parental control.
 - **Концентрация у Cloudflare** — другая риск-точка.
 
+## См. также (прикладное)
+RF-circumvention: в РФ DoH/DoT используются прежде всего для обхода DNS-spoofing'а на уровне оператора, не для приватности от глобального resolver'а.
+- [[Encrypted DNS — DoH-DoT]] — какой DoH работает (Yandex), какой блокируется (часть Cloudflare).
+- [[DNS-туннелирование]] — другая прикладная сторона DNS: канал передачи payload (не приватность, а transport).
+- [[applied-rf-status]] — обзор.
+
 ## Дальше читать
 - [[DNS over HTTPS / TLS]] — простой первый шаг.
 - [[Защита персональной информации]] — общая privacy.

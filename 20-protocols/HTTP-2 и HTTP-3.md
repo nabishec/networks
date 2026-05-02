@@ -84,6 +84,12 @@ flowchart TB
 - **Debugging** HTTP/2/3 сложнее, чем 1.1 (не текст). Wireshark + ssl-keylog для расшифровки.
 - **Сертификаты** — те же, что у HTTPS.
 
+## См. также (прикладное)
+RF-circumvention: HTTP/2-фрейминг используется как обёртка для VPN-трафика.
+- [[xHTTP]] — packet-up mode фрагментирует upstream POST-запросы; обход [[Session freezing]].
+- [[QUIC и mKCP]] — QUIC-based VPN (Hysteria-2, Tuic) как альтернатива TCP-based на mobile.
+- [[applied-rf-status]] — что работает на 2026-05-02.
+
 ## Дальше читать
 - [[HTTP]] — семантика остаётся.
 - [[QUIC]] — транспорт HTTP/3.
